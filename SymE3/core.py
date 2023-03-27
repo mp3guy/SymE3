@@ -152,7 +152,7 @@ class TotalFunction:
                 result = result.transpose().tomatrix()
 
             # Perform numerical substitution and evaluation to compare to numerical jacobian
-            if len(result.shape) == 2 and False:
+            if len(result.shape) == 2:
                 # Evaluate the function at zero 
                 # Bit of stateful nastiness here as this will populate the placeholder numerical 
                 # derivatives of any supplied symbolic functions, meaning it has to be called before
