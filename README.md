@@ -34,11 +34,11 @@ display(df_dd)
 ```
 Function:
 ```math
-\displaystyle {n_{r_i}}^{T} \left(\operatorname{exp}\left({\delta}\right) {\hat{T}_{rl}} {l_i} - {r_i}\right)
+\displaystyle {n_{r_i}}^{T} \left(\mathrm{exp}\left({\delta}\right) {\hat{T}_{rl}} {l_i} - {r_i}\right)
 ```
 Substituted:
 ```math
-\displaystyle {n_{r_i}}^{T} \left(\operatorname{exp}\left({\delta}\right) {\hat{r}_i} - {r_i}\right)
+\displaystyle {n_{r_i}}^{T} \left(\mathrm{exp}\left({\delta}\right) {\hat{r}_i} - {r_i}\right)
 ```
 Expanded:
 ```math
